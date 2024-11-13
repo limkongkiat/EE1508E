@@ -1,0 +1,263 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = MODS
+Directory = C:/Users/yisoo/Downloads/MODS
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<mult_gen_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<mult_gen>
+None
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+C:/Users/yisoo/Downloads/MODS/archive_project_summary.txt
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./MODS.srcs/sources_1/new/BRAM_background.v
+./MODS.srcs/sources_1/new/BRAM_basics.v
+./MODS.srcs/sources_1/new/BRAM_diagonal.v
+./MODS.srcs/sources_1/new/BRAM_square.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Calculate_Determinant_Subtask.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Determinant_2x2.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Determinant_3x3.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Determinant_Output_Det.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Determinant_Output_Scene.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Display_Number_5x5.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Input_Display.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Input_Scene.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Input_Selector.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Input_Selector_Box.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix_det_mult_2x2_v2.xpr/Matrix/Matrix.srcs/sources_1/new/Matrix_Output_Display.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix_det_mult_2x2_v2.xpr/Matrix/Matrix.srcs/sources_1/new/Matrix_Output_Scene.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Output_Selector.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Output_Selector_Box.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Size_Menu_Det_Scene.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Size_Menu_Det_Selector.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix_det_mult_2x2_v2.xpr/Matrix/Matrix.srcs/sources_1/new/Matrix_Size_Menu_Multiply_Scene.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Matrix_Size_Menu_Selector_Box.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix_det_mult_2x2_v2.xpr/Matrix/Matrix.srcs/sources_1/new/Multiplication_2x2_2x2.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix_det_mult_2x2_v2.xpr/Matrix/Matrix.srcs/sources_1/new/Multiply_Matrix_Subtask.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Numpad_Right_Num.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Numpad_Scene.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Numpad_Selector.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Numpad_Selector_Box.v
+./MODS.srcs/sources_1/imports/Desktop/Oled_Display.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Parse_Digits_Det.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Pixel_Index_To_Coordinate.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix_det_mult_2x2_v2.xpr/Matrix/Matrix.srcs/sources_1/new/Process_Result.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Trigger_Counter.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/answer_logic.v
+./MODS.srcs/sources_1/new/basic_mat_anno.v
+./MODS.srcs/sources_1/new/basics_matrix_page.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/button_letter_display.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/button_word_display.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/buttons_display.v
+./MODS.srcs/sources_1/new/flexi_clock.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/header_display.v
+./MODS.srcs/sources_1/new/identity_matrix_page.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/index_to_xy.v
+./MODS.srcs/sources_1/new/input_matrix_disp.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/judgement_display.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/letter_display.v
+./MODS.srcs/sources_1/new/main_menu.v
+./MODS.srcs/sources_1/new/matrix_bracket.v
+./MODS.srcs/sources_1/new/matrix_rain.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/oled_driver.v
+./MODS.srcs/sources_1/new/pill_scene.v
+./MODS.srcs/sources_1/new/pill_selector.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/quiz.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/results_display.v
+./MODS.srcs/sources_1/new/selector_arrow.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/sentence_display.v
+./MODS.srcs/sources_1/imports/limko/Downloads/Project_part2_ben.xpr/Project_2/Project_2.srcs/sources_1/new/signed_dig_disp.v
+./MODS.srcs/sources_1/new/sp_matrix_main.v
+./MODS.srcs/sources_1/new/sq_matrix_page.v
+./MODS.srcs/sources_1/new/state_update_LR.v
+./MODS.srcs/sources_1/new/switch_debouncing.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/text_scroll.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/timer.v
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/new/unique_prng.v
+./MODS.srcs/sources_1/new/Top_Student.v
+./MODS.srcs/sources_1/imports/MouseAudioDisplay/archive_project_summary.txt
+./MODS.srcs/sources_1/imports/res/weights.coe
+./MODS.srcs/sources_1/imports/res/00.coe
+./MODS.srcs/sources_1/imports/limko/Downloads/MODS/archive_project_summary.txt
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/matrix_bg.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/diagonal_page.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/square_page.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/basics_page.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/menu_base.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/diag_anno.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/basic_anno.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/iden_anno.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/scalar_anno.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Determinant_Output_Background.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Determinant_Size_Background.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Multiply_Size_Background.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/OK.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Multiply_Size_Background_R3.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Multiply_Size_Background_R2.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Numpad_Background.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Multiply_Size_Background_R1.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Matrix/Matrix.srcs/sources_1/new/Size_Menu_Words.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q2.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q1.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q7.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q6.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q10.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q5.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q8.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/judgement_screens/Yes.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q3.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q4.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/questions/Q9.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/Project_2/Project_2.srcs/sources_1/imports/judgement_screens/No.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/sq_anno.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/digits/digit_ref_negative.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/digits/digit_ref_positive.mem
+./MODS.srcs/sources_1/imports/limko/OneDrive/Desktop/School/y2s1/ee2026/FINAL PROJECT/pill_page.mem
+./MODS.srcs/sources_1/imports/MODS/archive_project_summary.txt
+
+<constrs_1>
+./MODS.srcs/constrs_1/new/constr.xdc
+
+<sim_1>
+./MODS.srcs/sim_1/new/main_menu_sim.v
+
+<mult_gen>
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen.xci
+./MODS.srcs/sources_1/ip/mult_gen/doc/mult_gen_v12_0_changelog.txt
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen.vho
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen.veo
+./MODS.srcs/sources_1/ip/mult_gen/hdl/xbip_utils_v3_0_vh_rfs.vhd
+./MODS.srcs/sources_1/ip/mult_gen/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+./MODS.srcs/sources_1/ip/mult_gen/hdl/xbip_bram18k_v3_0_vh_rfs.vhd
+./MODS.srcs/sources_1/ip/mult_gen/hdl/mult_gen_v12_0_vh_rfs.vhd
+./MODS.srcs/sources_1/ip/mult_gen/sim/mult_gen.vhd
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen.dcp
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen_stub.v
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen_stub.vhdl
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen_sim_netlist.v
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen_sim_netlist.vhdl
+./MODS.srcs/sources_1/ip/mult_gen/synth/mult_gen.vhd
+./MODS.srcs/sources_1/ip/mult_gen/mult_gen.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<mult_gen>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/yisoo/Downloads/MODS/vivado.jou
+Archived Location = ./MODS/vivado.jou
+
+Source File = C:/Users/yisoo/Downloads/MODS/vivado.log
+Archived Location = ./MODS/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+
